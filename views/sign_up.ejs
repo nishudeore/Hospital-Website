@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website - Sign_up</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Libre+Baskerville:ital@0;1&family=Merriweather&family=Montserrat:wght@200&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/images/cross.jpg" height="30">
+            <h1>ASHAJYOTI MULTISPECIALITY <br> HOSPITAL NANDURBAR</h1>
+        </div>
+        <div class="cred">
+            <nav>
+                <ul>
+                    <li><div class="home"><a href="/">Home</a></div></li>
+                    <li><div class="home"><a href="#">About us</a></div></li>
+                    <li><div class="login"><a href="/login">LOGIN</a></div></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="boy">
+        <!-- Login form -->
+        <form action="/sign_up" method="POST"> <!-- Change action to your signup route -->
+            <div class="name1">
+                <div class="name">
+                    <!-- Input for the user's full name -->
+                    <input type="text" name="fullname" class="rounded-input" placeholder="Full Name" required>
+                </div>
+                <div class="name">
+                    <!-- Input for the user's email -->
+                    <input type="email" name="email" class="rounded-input" placeholder="Email" required>
+                </div>
+                <div class="name">
+                    <!-- Input for the user's password -->
+                    <input type="password" name="password" class="rounded-input" placeholder="Password" required>
+                </div>
+                <div class="name">
+                    <!-- Input for password confirmation -->
+                    <input type="password" name="confirm_password" class="rounded-input" placeholder="Confirm Password" required>
+                </div>
+                <div class="name">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+                
+            </div>
+        </form>
+        
+    </div>
+</body>
