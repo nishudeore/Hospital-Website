@@ -10,10 +10,8 @@ Intuitive Navigation: Offers clean and easy navigation, enabling users to access
 
 Technology Stack
 
-Frontend: HTML5, CSS, JavaScript
-
+Frontend: HTML5, CSS, JavaScript                                                                                                                                           
 Backend: Node.js, Express.js
-
 Database: MySQL
 
 Home Page
