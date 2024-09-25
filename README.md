@@ -5,7 +5,7 @@ Developed a user-friendly and responsive online patient registration system desi
 Features 
 
 User Authentication: Provides secure signup and login functionalities with user validation, ensuring data integrity and security.                                             
-Patient Management: Allows users to register patients, view patient details, and schedule appointments efficiently.
+Patient Management: Allows users to register patients, view patient details, and schedule appointments efficiently.                                                          
 Intuitive Navigation: Offers clean and easy navigation, enabling users to access health reports and analysis effortlessly.
 
 Technology Stack
