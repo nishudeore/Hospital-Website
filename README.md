@@ -20,5 +20,4 @@ Home Page
 Login Page
 ![Home Page Screenshot](screenshots/login.png)
 
-Sign up Page
-![Home Page Screenshot](screenshots/sign.png)
+
