@@ -16,3 +16,9 @@ Database: MySQL
 
 Home Page
 ![Home Page Screenshot](screenshots/home_page.png)
+
+Login Page
+![Home Page Screenshot](screenshots/login.png)
+
+Sign up Page
+![Home Page Screenshot](screenshots/sign.png)
