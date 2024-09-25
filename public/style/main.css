@@ -107,7 +107,7 @@ body {
 .back_ground{
   width: 100vw; /* Set the width */
   height: 70vh; /* Set the height */
-  background-image: url('hospital.png'); /* Replace 'path_to_your_image.jpg' with your image file path */
+  background-image: url('8.png'); /* Replace 'path_to_your_image.jpg' with your image file path */
   background-size: cover; 
  
 }
@@ -216,17 +216,35 @@ body{
     font-size: 20px;
 }
 .info-right p {
-  margin: 0;
+  margin: 50px;
   max-width: 800px; /* Adjust as needed */
 }
-.end{
+.end {
   position: relative;
-  margin: 0px;
+  margin: 0;
   padding: 20px;
-  border: 0px;
-  background-color: #023240;
-  height: 100px;
+  border: 0;
+  background-color: #023240; /* Dark background color */
+  height: 120px; /* Increased height for better spacing */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  color: aliceblue; /* Text color */
+  font-family: 'Poppins', sans-serif; /* Font style */
 }
+
+.end img {
+  height: 80px; /* Adjust height of the image */
+  margin-right: 20px; /* Space between image and text */
+  border-radius: 50%; /* Optional: make image circular */
+}
+
+.end p {
+  margin: 5px 0; /* Add some margin between paragraphs */
+  text-align: center; /* Center text if needed */
+}
+
+
 /*login*/
 /* Background for the login page */
 /* Ensure the login section fills the viewport without scrolling */
