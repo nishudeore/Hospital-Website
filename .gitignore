@@ -1,0 +1,6 @@
+db.js
+mysql.env
+/node_modules
+/public
+package-lock.json
+package.json
